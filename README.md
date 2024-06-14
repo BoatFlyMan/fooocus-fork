@@ -36,7 +36,7 @@ To use this repository, you need:
 
 The fastest way to deploy a Fooocus instance is to click the **Deploy to Koyeb** button below.
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=fooocus-test&type=git&repository=koyeb%2Fexample-fooocus&branch=main&builder=dockerfile&instance_type=gpu-nvidia-rtx-4000-sff-ada&env%5BCMDARGS%5D=--listen+--port%3D%7B%7B+PORT+%7D%7D&ports=8000%3Bhttp%3B%2F)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=fooocus&type=git&repository=koyeb%2Fexample-fooocus&branch=main&builder=dockerfile&instance_type=gpu-nvidia-rtx-4000-sff-ada&env%5BCMDARGS%5D=--listen+--port%3D%7B%7B+PORT+%7D%7D&ports=8000%3Bhttp%3B%2F)
 
 Clicking on this button brings you to the Koyeb App creation page with most of the settings pre-configured to launch this application.  You can optionally add the following variables to configure authentication:
 
