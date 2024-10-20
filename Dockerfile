@@ -1,5 +1,7 @@
 FROM ghcr.io/lllyasviel/fooocus
 
+USER root
+
 ARG FOOOCUS_USERNAME
 ARG FOOOCUS_PASSWORD
 
