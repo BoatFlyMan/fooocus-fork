@@ -4,7 +4,7 @@ download-model "https://civitai.com/api/download/models/472605?type=Model&format
 download-model "https://civitai.com/api/download/models/447305?type=Model&format=SafeTensor" ./overwatchstyle.safetensors
 download-model "https://civitai.com/api/download/models/378458?type=Model&format=SafeTensor" ./overwatchchars.safetensors
 download-model "https://civitai.com/api/download/models/720821?type=Model&format=SafeTensor" ./arcanestyle_chars.safetensors
-download-model "" ./
+download-model "https://civitai.com/api/download/models/404551?type=Model&format=SafeTensor" ./hatsunemiku.safetensors
 download-model "" ./
 # Checkpoints
 download-model "https://civitai.com/api/download/models/914390?type=Model&format=SafeTensor&size=full&fp=fp16" ./ponyrealism.safetensors
