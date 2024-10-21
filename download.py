@@ -96,8 +96,11 @@ def download_file(url: str, output_path: str, token: str):
 
     if total_size is not None:
         total_size = int(total_size)
-
-    output_file = os.path.join(output_path, filename)
+        
+    if output_path.endswith('/'):
+        output_file = os.path.join(output_path, filename)
+    else:
+        output_file = output_path
 
     with open(output_file, 'wb') as f:
         downloaded = 0
