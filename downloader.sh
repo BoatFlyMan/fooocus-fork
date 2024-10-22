@@ -6,6 +6,7 @@ download-model "https://civitai.com/api/download/models/378458?type=Model&format
 download-model "https://civitai.com/api/download/models/720821?type=Model&format=SafeTensor" ./arcanestyle_chars.safetensors
 download-model "https://civitai.com/api/download/models/404551?type=Model&format=SafeTensor" ./hatsunemiku.safetensors
 download-model "https://civitai.com/api/download/models/533201?type=Model&format=SafeTensor" ./gwendolyn_tennyson.safetensors
+download-model "https://civitai.com/api/download/models/702347?type=Model&format=SafeTensor" ./mercy_pack.safetensors
 # Checkpoints
 download-model "https://civitai.com/api/download/models/914390?type=Model&format=SafeTensor&size=full&fp=fp16" ./ponyrealism.safetensors
 download-model "https://civitai.com/api/download/models/692489?type=Model&format=SafeTensor&size=full&fp=fp16" ./ponymistoon.safetensors
